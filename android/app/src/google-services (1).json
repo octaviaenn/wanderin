@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334812940117",
+    "project_id": "wanderin-418cf",
+    "storage_bucket": "wanderin-418cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334812940117:android:a8e6be43c7a84630f091dc",
+        "android_client_info": {
+          "package_name": "apac.wanderin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXN93-f7X7McU0PuoqhXFJDhPdIgLfn9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
