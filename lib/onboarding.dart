@@ -35,8 +35,7 @@ class _OnboardingState extends State<Onboarding> {
       _controller.nextPage(
           duration: const Duration(milliseconds: 300), curve: Curves.easeInOut);
     } else {
-      Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => Authentication()));
+      Navigator.pushReplacementNamed(context, '/authentication');
     }
   }
 
