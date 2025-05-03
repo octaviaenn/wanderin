@@ -8,8 +8,14 @@ environment:
   sdk: ^3.0.0
 
 dependencies:
+  js_interop: any
   flutter:
     sdk: flutter
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.3
+  firebase_auth_web: ^5.8.13
+  google_sign_in: ^6.1.6
+  js: ^0.6.7
 
 dev_dependencies:
   flutter_test:
@@ -18,9 +24,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+   - assets/gradient.png
+   - assets/onboard_slide1.png
+   - assets/onboard_slide2.png
+   - assets/onboard_slide3.png
+   - assets/logo.png
   # fonts:
   #   - family: Schyler
   #     fonts:
